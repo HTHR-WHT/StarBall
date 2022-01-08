@@ -2,7 +2,7 @@
   "name": "react-p5-StarBall",
   "version": "1.0.0",
   "description": "a playful and creative coding exploration using react-p5",
-  "main": "index.js",
+  "main": "app.js",
   "author": "HTHR-WHT",
   "scripts": {
     "start": "webpack-dev-server",

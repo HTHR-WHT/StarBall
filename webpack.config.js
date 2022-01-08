@@ -2,7 +2,7 @@ const path = require("path");
 
 module.exports = {
   mode: "development",
-  entry: "./client/index.js",
+  entry: "./client/app.js",
   output: {
     path: path.resolve(__dirname, "public"),
     filename: "bundle.js",
@@ -13,9 +13,6 @@ module.exports = {
         test: /\.jsx?$/,
         exclude: /(node_modules|bower_components)/,
         loader: "babel-loader",
-        // options: {
-        //   presets: ["@babel/preset-react"],
-        // },
       },
     ],
   },
